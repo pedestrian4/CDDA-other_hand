@@ -1,0 +1,41 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "hand",
+    "name": "Hands",
+    "authors": [ "pedestrian4" ],
+    "description": "Now you know how to use your other hand.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "id": "other_hand",
+    "type": "ARMOR",
+    "name": { "str": "other hand" },
+    "description": "your hand.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "@",
+    "to_hit": 0,
+    "sided": true,
+    "pocket_data": [ { "pocket_type": "CONTAINER", "holster": true, "max_contains_volume": "1000 L", "max_contains_weight": "1000 kg", "moves": 1, "extra_encumbrance": 1, "max_item_length": "1000 cm", "ripoff": 1} ],
+    "use_action": { "type": "holster" },
+    "flags": [ "OVERSIZE", "WATER_FRIENDLY", "PERSONAL", "ALLOWS_NATURAL_ATTACKS", "NO_WEAR_EFFECT", "ONLY_ONE", "NO_TAKEOFF", "NONCONDUCTIVE", "TRADER_AVOID", "UNBREAKABLE", "POWERARMOR_COMPATIBLE"],
+    "armor": [
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 0, "encumbrance": 0, "volume_encumber_modifier": 1 },
+      { "covers": [ "hand_l", "hand_r" ], "coverage": 0, "encumbrance": 0, "volume_encumber_modifier": 1 }
+    ]
+  },
+  {
+    "result": "other_hand",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "none",
+    "difficulty": 0,
+    "time": "0 s",
+    "autolearn": true,
+	"flags": [ "BLIND_EASY" ]
+  }
+]

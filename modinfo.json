@@ -11,7 +11,7 @@
   {
     "id": "other_hand",
     "type": "ARMOR",
-    "name": { "str": "other hand" },
+    "name": { "str": " other hand" },
     "description": "your hand.",
     "weight": "1 g",
     "volume": "1 ml",

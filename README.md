@@ -1,10 +1,8 @@
 # CDDA-other_hand
-A simple mod that allows player to hold stuffs with the other hand in CDDA.
+A simple mod that allows players to hold items with a secondary hand in CDDA.
 
-I made a mode that allows me to hold and carry items with my other hand, as it was unreasonable to only be able to carry one item in Cataclysm.
+I thought it was unreasonable that players could only carry one item at a time, created this mod.
 
-I added a permanent storage space to the character called the "other hand."
+It adds a permanent storage slot to the character called 'other hand' that functions like a holster, where only one item can be stored, and the encumbrance on one arm and hand increases depending on the item's volume.
 
-It works like a holster, and only one item can be stored, and the interference level on one arm and hand increases depending on the volume of the item stored.
-
-Application: Crafted in the recipe (only one can be worn).
+Application: This is crafted using a recipe, and the character can only wear one. Hide it once you have made it if you want.
